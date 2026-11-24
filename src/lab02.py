@@ -9,3 +9,8 @@ def astar(graph, h, start, goal):
 def memory_bounded_astar(graph, h, start, goal):
     """Iterative-deepening A* (memory grows only with path depth). Return (path, cost)."""
     raise NotImplementedError('TODO: implement this')
+
+def uniform_cost_search(graph, start, goal):
+    """Dijkstra / uniform-cost search: expand the cheapest path first (no heuristic).
+Return (path, cost) or (None, inf)."""
+    raise NotImplementedError('TODO: implement this')

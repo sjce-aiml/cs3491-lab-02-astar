@@ -13,3 +13,6 @@ def test_astar_small():
 
 def test_memory_bounded_small():
     assert lab.memory_bounded_astar(G, H, "S", "G")[1] == 6
+
+def test_uniform_cost_small():
+    assert lab.uniform_cost_search(G, "S", "G")[1] == 6
